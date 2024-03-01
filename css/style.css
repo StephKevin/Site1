@@ -2,35 +2,68 @@
 body{
     margin: 0px;
 }
-.head{
+header{
     background: url(../image/background.avif);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
     margin-top: 50px;
-    padding: 200px;
     color: black;
-    padding-left: 100px !important;
-    width: 100%;
+    padding: 200px;
+    padding-left: 50px !important;
 }
 button{
-    border-style: none;
-    width: 60px;
-    border-radius: 3px;
-    color: black;
-}
-.p{
+    background: #0006;
     color: white;
+    border-radius: 3px;
+    border-style: none;
 }
 .loko{
-    background: yellow;
+    background: #5bc0de  !important;
 }
-.noloko{
-    background: #00000063;
-    border-bottom: gray;
-    color: white !important;
+.sec{
+    background: #396b6e;
+    color: white;
 }
-#section1{
-    margin-top: 650px;
-    position: absolute;
+.sec div div div img{
+    border-radius: 10px;
+    height: 255px;
+    width: 500px;
+}
+.sec1{
+    background: brown;
+    color: white;
+    padding: 20px;
+}
+.fotsy{
+    padding: 10px;
+    background: white;
+}
+.fotsy p{
+    color: black;
+}
+.sec2{
+    padding: 20px;
+}
+.mi{
+    margin-top: 10px;
+}
+.sec3{
+    background: url(../image/caption.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.mainty{
+    background: #000000a3;
+    border-radius: 10px;
+    padding: 10px;
+}
+.ao{
+    padding: 20px;
+}
+.sec4{
+    background: url(../image/sous.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
